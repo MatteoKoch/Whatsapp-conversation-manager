@@ -1,0 +1,95 @@
+.flow-block {
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+}
+        
+.flow-block h2 {
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.flow-block > span {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.add-flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-flow::after {
+    content: '+';
+    color: #fff;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.flow-block input[type="radio"],
+.flow-block label {
+    color: #fff;
+}
+
+.flow-block > input[type="text"],
+.flow-block > select {
+    margin-top: 15px;
+}
+
+.mat-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: blue;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.flow-form {
+    position: absolute;
+    left: -40px;
+    top: 212px;
+    width: 280px;
+    background: #a1a1a1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.flow-form::before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 14px;
+    height: 14px;
+    background: #a1a1a1;
+    transform: rotate(45deg);
+}
+
+.flow-form span {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.flow-form * {
+    width: 100%;
+}
