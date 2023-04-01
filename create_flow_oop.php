@@ -139,7 +139,7 @@ $templates = json_decode($jsonfetch, true);
 
                 function sendData(data) {
                   let xhr = new XMLHttpRequest();
-                  xhr.open('POST', 'https://digistro.de/whatsapp/add_flow.php', true);
+                  xhr.open('POST', '<?= $url_of_your_db_insert ?>', true);
                   xhr.onload = function () {
                     if(xhr.responseText == "Fehler") {
                     }
