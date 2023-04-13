@@ -5,8 +5,8 @@ You need to create a "secret.php" file which contains all the API keys to your W
 You also need to set up a hook that your WhatsApp Business API can connect to (received and sent messages are sent to this hook by the WhatsApp API so you can store them in you DB).
 
 The 2 pages that are interesting are:
-showtemplates
-create_flow_oop
+- showtemplates
+- create_flow_oop
 
 showtemplates lists all the Templates that you have saved/created on your WhatsApp Business dashboard and allows you to choose a template.
 After you choose the template you are asked to input your variables for the template.
